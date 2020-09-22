@@ -1,0 +1,13 @@
+.heading {
+    font-family: verdana;
+    font-size:8.5;
+    text-align: left;
+}
+.profile-field {
+    text-emphasis: center;
+}
+
+p.profile-field {
+    text-align: center;
+}
+

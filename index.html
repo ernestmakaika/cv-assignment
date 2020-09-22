@@ -3,57 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css" type = "text/css">
 </head>
 <body>
-
-    <div class = "profile">
-        <h1></h1>
+    <div class = "profile-field">
+        <form>
+            <br /><p>Please complete your profile on this page.</p>
+            <label for="fname">First Name</label>
+            <input type="text">
+            <label for="mname">Middle Name</label>
+            <input type="text">
+            <label for="lname">Last Name</label> 
+            <input type="text"><br><br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select> <br><br>
+            <label for="address">Address</label>
+            <input type="textarea"><br><br>
+            <label for="phone">Phone</label>
+            <input type="phone"><br><br>
+            <label for="email">Email</label>
+            <input type="email"><br><br>
+            
+    <div id="submit-button">
+         <button type = "button">Submit</button>
+        </div>
+           
+        </form>
     </div>
-    <!--This will be the form.-->
-
-    <div class = "heading">
-        <h1>EDUCATION</h1>
-        <p>
-        </p>
-    </div>
-
-    
-    <div class = "heading">
-        <h1>ACHIEVEMENTS/AWARDS</h1>
-        <p>
-        </p>
-    </div>
-    
-    <div class = "heading">
-        <h1>WORK EXPERIENCE</h1>
-        <p>
-        </p>
-    </div>
-
-    <div class = "heading">
-        <h1>PROJECTS AND RESEARCH</h1>
-        <p></p>
-    </div>
-
-    <div class = "heading">
-        <h1>CO-CURRICULAR ACTIVITIES</h1>
-        <p></p>
-    </div>
-
-    <div class = "heading">
-        <h1>SKILLS</h1>
-        <p></p>
-    </div>
-
-    <div class = "heading">
-        <h1>REFERENCES</h1>
-    </div>
-
-    <div class = "footer">
-        <footer>
-           <p> References available upon request. </p>
-        </footer>
-    </div>
+    <!--This is the required html form.-->
 </body>
 </html>
