@@ -1,10 +1,12 @@
+
 body{
-    height: 100vh;
+    height: 210vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 8.5;
+    font-weight: bold;
 }
 
 #content-page {
@@ -16,25 +18,41 @@ body{
     text-justify: center;
 }
  
-#school-info {
+.education-info {
     font-weight: bold;
 }
 
- #location {
+.location {
     float:right;
     padding-inline-end: auto;
- }
+}
+.school-duration {
+    float:right;
+}#college-gpa {
+    font-weight:normal;
+}
 
-#major {
+#education-heading, .other-headings, .scholarship, #deans-list{
+    font-weight: bold;
+}
+.award-duration {
+    float: right;
+    font-weight: bold;
+}
+.award-institution {
+    font-weight: normal;
+}
+
+.organization-location, .roles, #languages, #reference-note{
+    font-weight: normal;
+}
+.work-duration, #project-duration,.curricular-duration {
     float:right;
 }
-
-#school-duration {
-    font-size: bold;
+.position {
+    font-weight: bold;
 }
-
-
-
+.
 
 
 
