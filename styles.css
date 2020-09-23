@@ -1,13 +1,81 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8.5;
+}
+
+#content-page {
+    width:100%;
+}
+
+#profile {
+    text-align:center;
+    text-justify: center;
+}
+ 
+#school-info {
+    font-weight: bold;
+}
+
+ #location {
+    float:right;
+    padding-inline-end: auto;
+ }
+
+#major {
+    float:right;
+}
+
+#school-duration {
+    font-size: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.entire-page {
+    display: flex;
+    text-emphasis: center;
+    margin-top:40 px;
+    padding-left:5px;
+    height: auto;
+    width: 98%;
+    background-color: aliceblue;
+}
+ .school {
+     float:left;
+ }
+.duration {
+    float:right;*/
+/*
 .heading {
     font-family: verdana;
     font-size:8.5;
     text-align: left;
 }
-.profile-field {
-    text-emphasis: center;
-}
+
 
 p.profile-field {
     text-align: center;
 }
 
+*/
