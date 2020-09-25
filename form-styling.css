@@ -1,15 +1,7 @@
-body{
-    /* display: flex; */
+body {
+    display: flex;
+    justify-content: center; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:8.5;
-    /* align-content: center;
-    align-items: center; */
+    padding-top: 2%;
+    flex-direction: row;
 }
-
-#landing-message{
-    text-align: center;
-}
-
-/* #form {
-    align-content: center;
-} */
