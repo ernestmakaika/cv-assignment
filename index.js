@@ -14,7 +14,7 @@ function indexValidation (element, event){
         window.alert("Please, enter your first name.")
     }
     else {
-        localStorage.setItem("firstname", firstName.value);
+        localStorage.setItem("firstname", firstName);
         const cvFirstname = localStorage.getItem("firstname")
     };
 
@@ -34,17 +34,16 @@ function indexValidation (element, event){
     }
     else {
         localStorage.setItem("address", address);
-        const cvAddress = localStorage.getElementById.getItem("address")
+        const cvAddress = localStorage.getItem("address")
     };
 
-    
-    const phone = document.getElementById("phone")
+    const phone = document.getElementById("phone");
     if (phone.value.length==0){
         window.alert("Please, enter your phone number.")
     }
     else {
         localStorage.setItem("phone", phone)
-        const cvPhone = localStorage.getElementById.getElementById("phone")
+        const cvPhone = localStorage.getItem("phone")
     };
     
     const email = document.getElementById("email");
@@ -53,6 +52,6 @@ function indexValidation (element, event){
     }
     else{
         localStorage.setItem("email", email)
-        const cvEmail = localStorage.getElementById.getElementById("email")
+        const cvEmail = localStorage.getItem("email")
     };
 }
