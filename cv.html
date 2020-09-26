@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ernest Makaika CV</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+
 </head>
 <body>
     <div id = "content-page">
         <div id = "profile">
-            <div id = "name"> ERNEST MAKAIKA</div>
-            <div id="email"> Email</div>
-            <div id="address">Address</div>
-            <div id="phone">Phone</div>
-            <div id="gender">Gender</div>
+            <div id="name">
+                <span id="cvfirstname"></span>
+                <span id="cvmiddlename"> </span>
+                <span id="cvlastname"></span>
+            </div>
+            
+            Address: <span id="cvaddress"></span>
+            <br>
+            <span id="cvgender"></span>
+            Phone: <span id="cvphone"></span>
+            <br>
+            Email: <span id="cvemail"></span>
         </div>
     <br>
         <div id="body">
@@ -31,7 +39,7 @@
                     <div id="college-gpa">Cumulative GPA: 3.53/4.00</div>
                 </div> <!--Major info division-->
     <br>
-                <div class="education-info">s
+                <div class="education-info">
                     <span id="sec-school">Mzuzu Government Secondary School</span>
                     <span class="location">Mzuzu, Malawi</span>
                 </div>
@@ -194,6 +202,24 @@
             </div> <!--Other headings container-->
         </div> <!--Body division-->
     </div> <!--Content division-->
-
+    
 </body>
+<script>
+
+        var cvFirstname = document.getElementById("cvfirstname");
+        var cvMiddlename = document.getElementById("cvmiddlename");
+        var cvLastname = document.getElementById("cvlastname");
+        // var cvGender = document.getElementById("cvgender");
+        var cvAddress = document.getElementById("cvaddress");
+        var cvEmail = document.getElementById("cvemail");
+        var cvPhone = document.getElementById("cvphone");
+
+        cvFirstname.innerHTML=localStorage.getItem("firstname");
+        cvMiddlename.innerHTML=localStorage.getItem("middlename");
+        cvLastname.innerHTML=localStorage.getItem("lastname");
+        cvAddress.innerHTML=localStorage.getItem("address");
+        cvEmail.innerHTML=localStorage.getItem("email");
+        cvPhone.innerHTML=localStorage.getItem("phone");
+        
+</script>
 </html>

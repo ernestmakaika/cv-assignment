@@ -5,74 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="form-styling.css" type="text/css">
-<script src="index.js" type="text/javascript" src="index.js"> </script>
+<script 
+src="index.js" type="text/javascript" src="index.js"> 
+
+
+    // function cvProfile (){
+    //     
+    //     localStorage.setItem("firstname", cvFirstname);
+    //     localStorage.setItem("middlename", cvMiddlename);
+    //     localStorage.setItem("lastname", cvLastname);
+    //     localStorage.setItem("gender", cvGender);
+    //     localStorage.setItem("email", cvEmail);
+    //     localStorage.setItem("address", cvAddress);
+    //     localStorage.setItem("phone", cvPhone);
+
+    //     return false;
+    // }
+
+</script>
 </head>
 <body>
     <div id="profile-page">
-        <div>
-            <div id="landing-message">Please complete the profile sections for your CV on this page.</div>
-            <br>
-        
-            <form action="cv.html" method="GET" id="form"><!--enter the function here-->
+    	<div id="landing-message">
+    		Please complete the profile section for your CV on this page.
+    	</div>
+    <br>
+        <form action="cv.html" method="GET" id="form">
                 <div class="name">
                     <div id="first-name">
                         <label for="firstname">First Name</label>
                         <input type="text" id="firstname">
                     </div>
-                    <br>
-                   <div class="middle-name">
+                 <br>
+                    <div class="middle-name">
                         <label for="middlename">Middle Name</label>
                         <input type="text" id="middlename">
                     </div>
-                    <br>
+                 <br>
                     <div id="last-name">
                         <label for="lastname">Last Name</label>
                         <input type="text" id="lastname">
                     </div>
                 </div> 
+            <br> 
+                <label for="gender">Gender</label>
+                    <div id="gender">
+                        <select name="gender">
+	                        <div class="gender-option">
+	                            <option value="male" id="male">Male</option>
+	                        </div>
+	                        <div class="gender-option">
+	                            <option value="female" id="female">Female</option>
+	                        </div>
+	                        <div id="gender-option">
+	                            <option value="other" id="other">Other</option>
+	                        </div>
+                        </select>
+                    </div>
                 <br>
-                <div id="gender"> 
-                    <label for="gender">Gender</label>
-                        <div id="gender">
-                            <select name="gender">
-                            <div class="gender-option">
-                                <option value="male" id="male">Male</option>
-                            </div>
-                            <div class="gender-option">
-                                <option value="female" id="female">Female</option>
-                            </div>
-                            <div id="gender-option">
-                                <option value="other" class="other">Other</option>
-                            </div>
-                            </div>
-                        </select> 
-                </div>
+	                <div id="address-field">
+	                    <label for="address">Address</label>
+	                    <input type="textarea" id="address" placeholder="Street, Town/City, Country">
+	                </div>
                 <br>
-                <div id="address-field">
-                    <label for="address">Address</label>
-                    <input type="textarea" id="address" placeholder="Street, Town/City, Country">
-                </div>
+	                <div id="phone-field">
+	                    <label for="phone">Phone</label>
+	                    <input type="text" id="phone">
+	                </div>
                 <br>
-                <div id="phone-field">
-                    <label for="phone">Phone</label>
-                    <input type="text" id="phone">
-                </div>
+	                <div id="email-field">
+	                    <label for="email">Email</label>
+	                    <input type="text" id="email">
+	                </div>
                 <br>
-                <div id="email-field">
-                    <label for="email">Email</label>
-                    <input type="text" id="email">
-                </div>
-                </div>
-                </div>
-                <br>
-                <div class="submit-button">
-                    <button type="submit" class="submit-button">Submit</button>
-                </div>
-            </form>
-        </div>
-        <!--This is the required html form.-->
-        </div>
-        
-    </div>
-</body>
+	                <div class="submit-button">
+	                    <button type="submit" class="submit-button">Submit</button>
+	                </div>
+    		</form>
+		</div>
+	</body>
 </html>

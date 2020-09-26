@@ -53,6 +53,14 @@ body{
     font-weight: bold;
 }
 
+#content-page{
+    font-weight: normal;
+}
+#name {
+    font-weight: bold;
+    font-size: 14;
+    text-transform: uppercase;
+}
 
 
 
